@@ -1,4 +1,5 @@
 ### Some of the commands practised
+```
 man passwd
 man cat
 cat /etc/passwd -e
@@ -65,3 +66,4 @@ du -h apache-tomcat-8.5.86
 du -sh apache-tomcat-8.5.86
 pwd | du -sh
 top
+```
