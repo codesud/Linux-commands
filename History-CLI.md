@@ -86,4 +86,48 @@ cat /etc/sudoers
 sudo cat /etc/sudoers
 sudo vim /etc/sudoers
 sudo su mike
+exit
 ```
+
+```
+sudo cat /etc/passwd
+sudo useradd mike
+sudo useradd mitchell
+sudo useradd michael
+sudo useradd tom
+sudo useradd tim
+sudo useradd tango
+sudo groupadd devops team
+sudo groupadd devopsteam
+sudo groupadd hrteam
+sudo usermod -aG devopsteam mike
+sudo usermod -aG devopsteam mitchell
+sudo usermod -aG devopsteam mchael
+sudo usermod -aG devopsteam michael
+sudo usermod -aG hrteam tom
+sudo usermod -aG hrteam tim
+sudo usermod -aG hrteam tango
+sudo groupadd cloudteam
+sudo usermod -aG cloudteam mike
+id mike
+id michel
+id michael
+id mitchell
+id tom
+sudo groupadd compensationteam
+sudo usermod -aG compensationteam tom
+id tom
+cat /etc/group
+cat /etc/passwd
+cat -n /etc/passwd
+cat /etc/sudoers
+sudo cat /etc/sudoers
+sudo vim /etc/sudoers
+sudo passwd mike
+sudo su mike
+sudo vim /etc/sudoers
+sudo su mike
+sudo cat /etc/passwd
+sudo cat ~/.bash_history
+```
+
