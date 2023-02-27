@@ -131,3 +131,10 @@ sudo cat /etc/passwd
 sudo cat ~/.bash_history
 ```
 
+``
+sudo su mitchell
+sudo useradd congo
+sudo usermod -aG compensationteam congo
+sudo cat /etc/group
+exit
+```
