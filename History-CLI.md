@@ -131,7 +131,7 @@ sudo cat /etc/passwd
 sudo cat ~/.bash_history
 ```
 
-``
+```
 sudo su mitchell
 sudo useradd congo
 sudo usermod -aG compensationteam congo
@@ -166,6 +166,29 @@ sudo vim recipes.txt
 cat recipes.txt
 cat newrecipes.txt
 
-## Hard links work even after moving from one directory to other.
-## Soft lick breaks when the file or link is moved
+sudo yum install glances -y
+glances
+
+top
+ps
+ps -ef
+ps -u root
+top
+cat /proc/loadavg
+w
+w | grep load
+who
+uptime
+ps -a
+cat /proc/loadavg
+fsck
+fstab
+df
+du
+lsblk
+fs
+bc
+nslookup
+dig
+cal
 ```
