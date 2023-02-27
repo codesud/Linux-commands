@@ -67,3 +67,23 @@ du -sh apache-tomcat-8.5.86
 pwd | du -sh
 top
 ```
+```
+cat /etc/passwd
+useradd mike
+sudo useradd mike
+cat /etc/passwd
+sudo useradd mitchell
+sudo useradd michael
+cat /etc/passwd
+id centos
+id mike
+sudo su -
+sudo su - root
+sudo su mike
+sudo passwd mike
+sudo su mike
+cat /etc/sudoers
+sudo cat /etc/sudoers
+sudo vim /etc/sudoers
+sudo su mike
+```
