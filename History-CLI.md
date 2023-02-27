@@ -137,4 +137,10 @@ sudo useradd congo
 sudo usermod -aG compensationteam congo
 sudo cat /etc/group
 exit
+last
+last | grep centos | wc -l
+w
+sudo touch sample.txt
+ls -ltr
+sudo find . -type f -name "sample.txt" -exec rm {} \;
 ```
