@@ -165,4 +165,7 @@ cat recipes.txt
 sudo vim recipes.txt
 cat recipes.txt
 cat newrecipes.txt
+
+## Hard links work even after moving from one directory to other.
+## Soft lick breaks when the file or link is moved
 ```
