@@ -143,4 +143,26 @@ w
 sudo touch sample.txt
 ls -ltr
 sudo find . -type f -name "sample.txt" -exec rm {} \;
+
+whereis touch
+whereis sudo
+whereis init
+which touch
+which sudo
+which init
+
+cd /usr/bin
+ls -ltr | awk '{print $NF}'
+ls -ltr | awk '{print $NF}' | wc -l
+
+sudo touch recipes.txt
+sudo vim recipes.txt
+ls -ltr
+sudo ln recipes.txt newrecipes.txt
+ls -ltr
+cat newrecipes.txt
+cat recipes.txt
+sudo vim recipes.txt
+cat recipes.txt
+cat newrecipes.txt
 ```
