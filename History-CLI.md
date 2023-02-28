@@ -221,3 +221,18 @@ cd -
 df -h
 ```
 
+```
+sudo yum list installed | wc -l
+sudo yum list available | wc -l
+sudo yum install vim -y
+sudo yum install nginx -y
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo systemctl statusd httpd
+systemctl status htttpd
+sudo systemctl status httpd
+sudo systemctl stop httpd
+sudo systemctl status httpd
+sudo init 6
+
+```
