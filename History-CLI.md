@@ -192,3 +192,32 @@ nslookup
 dig
 cal
 ```
+
+```
+curl ifconfig.co
+curl ifconfig.me
+cat /etc/yum.repos.d
+cd /etc/yum.repos.d
+ls -ltr
+cat CentOS-Base.repo
+cd -
+cd /etc/
+ls -ltr
+ls -ltr | grep yum
+cat yum.conf
+cat yum.conf | centos
+cat yum.conf | grep centos
+ls -ltr | grep centos
+ls -ltr | grep yum
+cd yum
+ls -ltr
+cat yum.repos.d
+cd yum.repos.d
+cd ..
+cd yum.repos.d
+ls -ltr
+history
+cd -
+df -h
+```
+
